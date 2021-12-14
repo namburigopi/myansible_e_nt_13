@@ -1,7 +1,6 @@
 [mywebservers]
-172.31.1.148
 172.31.14.182
-
+172.31.1.148
 
 [mywebservers:vars]
 mywebpackageonubuntu=apache2
