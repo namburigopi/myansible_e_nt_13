@@ -16,9 +16,4 @@
 172.31.4.132
 
 [myredhatservers]
-172.31.14.153
-
-
-[mywebservers:vars]
-mywebpackageonubuntu=apache2
-mywebpackageonredhat=httpd
+172.31.11.142
