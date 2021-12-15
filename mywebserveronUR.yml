@@ -7,7 +7,7 @@
       name: "{{mywebpackageonubuntu}}" 
       state: present
     when: ansible_os_family =="Debian"
-  - name: i want to start webserver on ubuntu16 nodes 
+  - name: i want to start web server on ubuntu16 nodes 
     service:
        name: "{{mywebpackageonubuntu}}"
        state: started 
