@@ -1,3 +1,4 @@
 ---
+mywebservers:vars
 mywebpackageonubuntu: apache2
 mywebpackageonredhat: httpd
