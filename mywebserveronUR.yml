@@ -2,12 +2,12 @@
 - hosts: mywebservers
   become: yes
   tasks: 
-  - name: i want to install web server on ubuntu16 nodes
+  - name: i want to install web server on ubuntu16 node
     apt: 
       name: "{{mywebpackageonubuntu}}"
       state: present
     when: ansible_os_family =="Debian"
-  - name: i want to start webserver on ubuntu16 nodes
+  - name: i want to start webserver on ubuntu16 node
     service: 
        name: "{{mywebpackageonubuntu}}"
        state: started
